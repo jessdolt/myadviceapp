@@ -77,12 +77,6 @@ body{
     }
 }
 
-@keyframes button{
-    20% {
-        padding: 0.1rem 1.83rem;
-    }
-}
-
 @media only screen and (min-width: 360px) and (max-width: 560px) {
     .main-title{
         font-size: 52px;

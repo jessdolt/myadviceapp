@@ -15,18 +15,16 @@ function getAdvice(){
             msg.style.animation='text 1s 1';
             msg.textContent=advice;
             btn.disabled = true;
-            btnReset();
         }
+        btnReset();
     }
     xhr.send();
     msg.style.removeProperty('animation');
-   
+    
 }
 
 function btnReset(){
     setInterval(function(){
         btn.disabled = false;
-        btn.style.animation='button 0.5 1';
-    },4750)
-   
+    },4850) 
 }
