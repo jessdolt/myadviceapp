@@ -55,6 +55,7 @@ body{
 }
 .btn-click-me:hover{
     background: rgba(196, 196, 196, 0.4);
+   
 }
 
 
@@ -62,13 +63,13 @@ body{
     0%{
         opacity: 0;
     }
-    30%{
+    25%{
         opacity: 0.3;
     }
     50%{
         opacity: 0.5;
     }
-    80% {
+    75% {
         opacity: 0.8;
     }
     100%{
@@ -76,6 +77,11 @@ body{
     }
 }
 
+@keyframes button{
+    20% {
+        padding: 0.1rem 1.83rem;
+    }
+}
 
 @media only screen and (min-width: 360px) and (max-width: 560px) {
     .main-title{
@@ -96,3 +102,4 @@ body{
         margin-left: 0;
     }
 }
+
