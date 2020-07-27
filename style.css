@@ -1,0 +1,98 @@
+*{
+    margin:0 ;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, #D3B0A1 0%, rgba(237, 199, 183, 0) 100%);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    position: absolute;
+    top: 20%;
+}
+.main-title{
+    font-family: 'Scope One', serif ;
+    font-size: 80px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sub-title{
+    font-family: 'Scope One', serif ;
+    margin-left: 200px;
+    margin-top: -30px;
+}
+.advice-container{
+    width: 50%;
+    word-wrap: break-word;
+    text-align: center;
+    
+}
+.advice-message{
+    font-family: 'Lustria', serif;
+    font-size: 47px;
+    
+}
+
+.btn-click-me{
+    font-family: 'Lustria', serif;
+    background: rgba(196, 196, 196, 0.08);
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    box-sizing: border-box;
+    padding: 0.8rem 1.8rem;
+    border-radius: 5px;
+    outline:none;
+    cursor:pointer;
+    transition: 0.3s ease-out;
+    position: absolute;
+    top: 70%;
+    margin-left: -20px;
+}
+.btn-click-me:hover{
+    background: rgba(196, 196, 196, 0.4);
+}
+
+
+@keyframes text{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0.3;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    80% {
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 560px) {
+    .main-title{
+        font-size: 52px;
+        text-align: center;
+    }
+    .sub-title{
+        margin-top: -20px;
+    }
+    .advice-container{
+        width: 90%;
+        
+    }
+    .advice-message{
+        font-size: 30px;
+    }
+    .btn-click-me{
+        margin-left: 0;
+    }
+}
