@@ -51,7 +51,7 @@ body{
     transition: 0.3s ease-out;
     position: absolute;
     top: 70%;
-    margin-left: -20px;
+    
 }
 .btn-click-me:hover{
     background: rgba(196, 196, 196, 0.4);
